@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GALERYN Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <div id="app">
+      <nav class="navbar">
+        <div class="nav-logo">GALERYN</div>
+        <ul class="nav-links">
+          <li><a href="#about-us">About Us</a></li>
+          <li><a href="#stories">Stories</a></li>
+          <li><a href="#concept">Concept</a></li>
+          <li><a href="#design-style">Style</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button id="theme-toggle" class="theme-toggle" aria-label="Switch theme">
+          <span class="icon-light">☀️</span>
+          <span class="icon-dark">🌙</span>
+        </button>
+      </nav>
+      <header class="hero-section">
+        <div class="header-meta top-meta">
+          <p>Temporary Portfolio</p>
+          <p>of Galeryn Co.</p>
+        </div>
+        <div class="hero-content">
+          <p class="subtitle">A Beautiful Photo</p>
+          <h1 class="title">GALERYN</h1>
+          <p class="subtitle right-aligned">Best Of 2024</p>
+        </div>
+        <div class="header-meta bottom-meta">
+          <p>Sit amet consectetur adipiscing elit duis. Cursus eget nunc scelerisque viverra mauris in aliquam sem fringilla. Lorem donec massa sapien faucibus et. Vel orci porta non pulvinar neque laoreet suspendisse interdum. Praesent tristique magna sit amet purus gravida.</p>
+          <p>001 // Galeryn Co.</p>
+        </div>
+      </header>
+
+      <main class="content-grid">
+        <!-- Card 1: Table of Contents -->
+        <section class="card card-toc">
+          <div class="toc-image">
+            <img src="https://images.pexels.com/photos/1001682/pexels-photo-1001682.jpeg?auto=compress&cs=tinysrgb&w=300" alt="Dried wheat stalks" />
+          </div>
+          <div class="toc-content">
+            <h2>Table of Contens</h2>
+            <p class="date">Dec/2025</p>
+            <dl class="toc-list">
+              <dt data-target="about-us">Tell About Us</dt><dd>01</dd>
+              <dt data-target="stories">Stories</dt><dd>02</dd>
+              <dt data-target="concept">Our Concept</dt><dd>03</dd>
+              <dt data-target="design-style">Design Style</dt><dd>04</dd>
+              <dt data-target="contact">Contact Info</dt><dd>05</dd>
+            </dl>
+          </div>
+        </section>
+
+        <!-- Card 2: Stories 001 (Person on stairs) -->
+        <section class="card card-story" id="stories">
+          <div class="story-image">
+            <img src="https://images.pexels.com/photos/1546168/pexels-photo-1546168.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Person walking up stairs" />
+          </div>
+          <div class="story-meta">
+            <p class="meta-top">001</p>
+            <p class="meta-bottom">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget nunc scelerisque viverra mauris.</p>
+          </div>
+        </section>
+
+        <!-- Card 3: Photography Quote (Flower) -->
+        <section class="card card-quote">
+          <div class="quote-text">
+            <p>Photo-graphy takes an instant out of time, altering life by holding it still.</p>
+          </div>
+          <div class="quote-image">
+            <img src="https://images.pexels.com/photos/1083822/pexels-photo-1083822.jpeg?auto=compress&cs=tinysrgb&w=300" alt="Close up of a flower" />
+          </div>
+          <div class="story-meta">
+            <p class="meta-top">001 Stories</p>
+          </div>
+        </section>
+
+        <!-- Card 4: GALERYN Stories (Large image bottom) -->
+        <section class="card card-large-image" id="about-us">
+          <div class="text-content">
+            <h2>GALERYN® Stories</h2>
+            <p class="date">2024/24</p>
+            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget nunc scelerisque viverra mauris.</p>
+          </div>
+          <div class="large-image">
+            <img src="https://images.pexels.com/photos/142497/pexels-photo-142497.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Mountain landscape at sunset" />
+          </div>
+        </section>
+
+        <!-- Card 5: Concept (Image small, right) -->
+        <section class="card card-concept" id="concept">
+          <div class="text-content">
+            <h2>Concept</h2>
+            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget nunc scelerisque viverra mauris.</p>
+          </div>
+          <div class="concept-image">
+            <img src="https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg?auto=compress&cs=tinysrgb&w=300" alt="Woman in a field" />
+            <p class="image-number">006/30</p>
+          </div>
+        </section>
+
+        <!-- Card 6: Identity (Image small, right, meta top) -->
+        <section class="card card-identity">
+          <div class="text-content">
+            <h2>Identity</h2>
+            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget nunc scelerisque viverra mauris.</p>
+          </div>
+          <div class="identity-image">
+            <p class="date">2025/30</p>
+            <img src="https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg?auto=compress&cs=tinysrgb&w=300" alt="Woman walking away in a field" />
+          </div>
+        </section>
+
+        <!-- Card 7: Style of Berlin (Image left, text right) -->
+        <section class="card card-style" id="design-style">
+          <div class="style-image">
+            <p class="number">003</p>
+            <img src="https://images.pexels.com/photos/1001682/pexels-photo-1001682.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Hilly landscape" />
+          </div>
+          <div class="style-text">
+            <h2>Style of Berlin</h2>
+          </div>
+        </section>
+
+        <!-- Card 8: 004 (Abstract image) -->
+        <section class="card card-abstract">
+          <div class="abstract-image">
+            <p class="number">004</p>
+            <img src="https://images.pexels.com/photos/164005/pexels-photo-164005.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Abstract architectural structure" />
+          </div>
+          <div class="abstract-meta">
+            <p class="date">2025/30</p>
+            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget nunc scelerisque viverra mauris.</p>
+          </div>
+        </section>
+
+        <!-- Card 9: Contact Info (New Card) -->
+        <section class="card card-contact" id="contact">
+          <h2>Contact Info</h2>
+          <p class="date">Get in touch</p>
+          <div class="contact-details">
+            <p>Email: hello@galeryn.co</p>
+            <p>Phone: +1 (555) 123-4567</p>
+            <p>Address: 123 Photo Lane, Berlin, Germany</p>
+          </div>
+          <a href="mailto:hello@galeryn.co" class="contact-button">Send Inquiry</a>
+        </section>
+      </main>
+      
+      <footer class="footer">
+        <div class="footer-content">
+          <div class="footer-col footer-brand">
+            <div class="nav-logo">GALERYN</div>
+            <p class="brand-tagline">Capturing moments, crafting stories.</p>
+            <a href="#contact" class="footer-cta">Start a Project →</a>
+          </div>
+
+          <div class="footer-col footer-links">
+            <h4>Navigation</h4>
+            <ul>
+              <li><a href="#about-us">About Us</a></li>
+              <li><a href="#stories">Stories</a></li>
+              <li><a href="#concept">Our Concept</a></li>
+              <li><a href="#design-style">Design Style</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col footer-contact">
+            <h4>Connect</h4>
+            <p>hello@galeryn.co</p>
+            <p>+1 (555) 123-4567</p>
+            <div class="social-links">
+              <a href="#">Instagram</a>
+              <a href="#">Facebook</a>
+              <a href="#">Twitter</a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2024 GALERYN Co. All rights reserved.</p>
+          <p>Photography Portfolio & Design Studio.</p>
+        </div>
+      </footer>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
